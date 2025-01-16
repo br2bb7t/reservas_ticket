@@ -6,6 +6,7 @@ Este proyecto implementa una API de reservas de tickets para eventos utilizando 
 
 ![Diagrama-C4](https://github.com/user-attachments/assets/069a9c6f-e9a2-4023-899a-1d5644fd268f)
 
+---
 
 ![Diagrama-Secuencia](https://github.com/user-attachments/assets/6b263610-df11-45af-ae3f-893d8de904d5)
 
