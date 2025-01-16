@@ -3,6 +3,7 @@
 ## Descripción
 
 Este proyecto implementa una API de reservas de tickets para eventos utilizando Django y Django REST Framework, con la gestión de concurrencia a través de Celery y Redis. La API permite a los usuarios realizar reservas de tickets, procesarlas de manera asíncrona y gestionar la liberación de tickets cuando se cancelan las reservas.
+![Diagrama-Secuencia](https://github.com/user-attachments/assets/6b263610-df11-45af-ae3f-893d8de904d5)
 
 
 # Flujo de la API
