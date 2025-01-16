@@ -6,10 +6,6 @@ Este proyecto implementa una API de reservas de tickets para eventos utilizando 
 
 ---
 
-![Diagrama-C4](https://github.com/user-attachments/assets/bc37c83d-5f25-4366-8b3d-2d2bf99b339e)
-
----
-
 ![Diagrama-Secuencia](https://github.com/user-attachments/assets/6b263610-df11-45af-ae3f-893d8de904d5)
 
 ---
@@ -30,6 +26,12 @@ Si un usuario desea cancelar su reserva, la API:
 1. Verifica el estado de la reserva: Si la reserva está en un estado `completada` o `cancelada`, no puede ser cancelada nuevamente.
 2. Libera los tickets reservados: La cantidad de tickets reservados en el evento se actualiza, liberando los tickets que previamente fueron reservados.
 3. Actualiza el estado de la reserva: Una vez liberados los tickets, la reserva pasa a tener el estado `cancelada`.
+
+---
+
+![Diagrama-C4](https://github.com/user-attachments/assets/bc37c83d-5f25-4366-8b3d-2d2bf99b339e)
+
+---
 
 ## Tareas Asíncronas con Celery
 # procesar_reserva (Celery Task)
